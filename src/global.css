@@ -1,0 +1,29 @@
+:root {
+    --corPrincipal: #2351e7;
+    --corFontGrandeDestacada: #333333;
+    --corFontPequenaSuave: #686868;
+    --corFontSuperSuave: #575757;
+    --corMegaSuave: #bbbbbb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2351e7;
+}
+
+.mensagemStyles {
+    text-align: center;
+    color: var(--corPrincipal);
+    font-weight: 500;
+}

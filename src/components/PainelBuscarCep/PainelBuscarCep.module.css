@@ -1,0 +1,53 @@
+.painelCep {
+    width: 600px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px 0px 14px 0px;
+}
+
+.tituloPainel {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloPainel h1 {
+    font-size: 22px;
+    color: var(--corFontGrandeDestacada);
+}
+
+.bscCepTitulo {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputStyles {
+    width: 65%;
+    height: 40px;
+    padding: 0px 1rem;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    color: var(--corFontPequenaSuave);
+}
+
+/* Estilização Botão */
+
+.botaoStyles {
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: #ccc;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+/* Erro input */
+
